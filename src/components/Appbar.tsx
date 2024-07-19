@@ -7,10 +7,10 @@ export const Appbar: React.FC = () => {
             <div
                 className="absolute inset-0 z-[-1]"
                 style={{
-                    background: 'linear-gradient(90deg, rgba(0,0,0,1) 18%, rgba(4,4,67,0.94) 54%, rgba(0,0,0,1) 92%)',
+                    background: 'linear-gradient(90deg, rgba(0,0,0,1) 14%, rgba(8,8,78,0.96) 59%, rgba(0,0,0,1) 92%)',
                 }}
             />
-            <div className="container mx-auto flex items-center justify-between  px-6 font-outfit">
+            <div className="container mx-auto flex items-center justify-between px-6 font-outfit">
                 <div className="flex items-center">
                     <img src="./logo.png" className='w-[83px]' alt="Logo" />
                 </div>
@@ -43,7 +43,6 @@ export const Appbar: React.FC = () => {
                     </Link>
                 </div>
             </div>
-            
         </div>
     );
 }
