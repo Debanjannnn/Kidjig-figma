@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 export const Appbar: React.FC = () => {
     return (
-        <div className="relative bg-black bg-opacity-18">
+        <div className="relative">
             <div
                 className="absolute inset-0 z-[-1]"
                 style={{
-                    background: 'linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(22,26,82,0.89) 59%, rgba(17,20,63,1) 77%, rgba(0,0,0,1) 97%)',
+                    background: 'linear-gradient(90deg, rgba(0,0,0,1) 18%, rgba(4,4,67,0.94) 54%, rgba(0,0,0,1) 92%)',
                 }}
             />
             <div className="container mx-auto flex items-center justify-between  px-6 font-outfit">
@@ -43,6 +43,7 @@ export const Appbar: React.FC = () => {
                     </Link>
                 </div>
             </div>
+            
         </div>
     );
 }

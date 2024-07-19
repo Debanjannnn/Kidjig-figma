@@ -6,10 +6,12 @@ export const HeroSection = () => {
 
     return (
         <div className="relative w-full h-screen ">
+
             <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{ backgroundImage: `url(${backgroundImageUrl})` }}
-            >
+            >       <img src="./Ellipse1.png" alt="" className='absolute pl-[770px]' />
+                <img src="./Ellipse1.png" alt="" className='absolute pl-[190px] ' />
                 <div className="flex flex-col ml-[279px] w-[778px] pt-[210px] h-[249px] text-white font-outfit mb-[400px]">
                     <div className="text-[56px] mb-[10px]">
                         Empowering <span>Lives</span> Through Innovative <span className='font-bold underline decoration-[#6881FF]'> AI</span> Technologies.
